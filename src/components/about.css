@@ -1,0 +1,65 @@
+/*
+ * File Name: About.css
+ * Student's Name: Arvin Estella
+ * StudentID: 301396938
+ * Date: 2024-05-26
+ */
+
+/* About Page Styles */
+
+/* Background Styling */
+.aboutpage {
+  background-image: url("aboutbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+}
+
+/* Container Styling */
+.about {
+  text-align: center;
+  padding-top: 120px; /* Adjust to give space for the fixed navbar */
+  max-width: 800px;
+  margin: 0 auto; /* Center the container */
+}
+
+/* Profile Picture Styling */
+.about .profile-pic {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  padding-top: 40px;
+}
+
+/* Paragraph Styling */
+.about p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Button Container Styling */
+.about .button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Button Styling */
+.about .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #04AA6D;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Button Hover Styling */
+.about .btn:hover {
+  background-color: #7f0375;
+}

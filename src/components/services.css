@@ -1,0 +1,68 @@
+/*
+ * File Name: services.css
+ * Student's Name: Arvin Estella
+ * StudentID: 301396938
+ * Date: 2024-05-26
+ */
+
+/* Service Page Styles */
+
+/* Background Styling */
+.servicepage {
+  background-image: url("servicebg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Container Styling */
+.services {
+  text-align: center;
+  padding: 80px 20px; /* Adjust to give space for the fixed navbar */
+}
+
+/* Header Styling */
+.services h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Service List Styling */
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
+}
+
+/* Service Item Styling */
+.service-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 250px; 
+  transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.service-item img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Service Item Header Styling */
+.service-item h2 {
+  font-size: 1.5rem;
+  color: #04AA6D;
+  margin-bottom: 10px;
+}
+
+/* Service Item Hover Effect */
+.service-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

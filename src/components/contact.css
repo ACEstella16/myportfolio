@@ -1,0 +1,116 @@
+/*
+ * File Name: contact.css
+ * Student's Name: Arvin Estella
+ * StudentID: 301396938
+ * Date: 2024-05-26
+ */
+
+/* Contact Page Styles */
+
+/* Container Styling */
+.contact {
+  text-align: center;
+  padding-top: 120px; /* Adjust to give space for the fixed navbar */
+  max-width: 800px;
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+/* Header Styling */
+.contact h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding-top: 50px;
+}
+
+/* Form Styling */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input and Textarea Styling */
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  opacity: 0;
+  animation: fadeInUp 0.5s forwards;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+/* Focused Input and Textarea Styling */
+.contact input[type="text"]:focus,
+.contact input[type="email"]:focus,
+.contact textarea:focus {
+  border-color: #04AA6D;
+  box-shadow: 0 0 8px rgba(0, 170, 109, 0.2);
+  outline: none;
+  transform: scale(1.02);
+}
+
+/* Textarea Specific Styling */
+.contact textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+/* Button Styling */
+.contact button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: white;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  opacity: 0;
+  animation: fadeInUp 0.5s forwards;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+/* Button Hover and Focus Styling */
+.contact button:hover {
+  background-color: #037f54;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.contact button:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 170, 109, 0.2);
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,60 @@
+/*
+ * File Name: Home.css
+ * Student's Name: Arvin Estella
+ * StudentID: 301396938
+ * Date: 2024-05-26
+ */
+
+/* Home Page Styles */
+
+/* Background Styling */
+.homepage {
+  background-image: url("homebg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+}
+
+/* Container Styling */
+.home {
+  text-align: justify;
+  padding-top: 50px; /* Adjust to give space for the fixed navbar */
+  max-width: 800px;
+  margin: 0 auto; /* Center the container */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 20px; /* Add padding inside the home container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visual separation */
+  backdrop-filter: blur(2px); /* Apply a blur effect */
+}
+
+/* Header Styling */
+.home h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+
+/* Paragraph Styling */
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: black;
+}
+
+/* Button Styling */
+.home .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #04AA6D;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Button Hover Styling */
+.home .btn:hover {
+  background-color: #8a0291;
+}
