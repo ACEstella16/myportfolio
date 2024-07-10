@@ -1,0 +1,30 @@
+/* counter.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .star-rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .stars {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .star {
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 0.1rem;
+  }
+  
+  p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  

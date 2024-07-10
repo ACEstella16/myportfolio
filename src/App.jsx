@@ -5,6 +5,7 @@ import About from './components/about';
 import Projects from './components/projects';
 import Services from './components/services';
 import Contact from './components/contact';
+import Counter from './components/counter';
 import './App.css'; // Create this file for your global styles
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/project" element={<Projects />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/counter" element={<Counter />} />
         </Routes>
       </div>
     </Router>
